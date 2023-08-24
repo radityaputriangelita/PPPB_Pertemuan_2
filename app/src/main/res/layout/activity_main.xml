@@ -51,21 +51,22 @@
             android:id="@+id/YES"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_weight="1"
             android:layout_margin="10dp"
             android:text="@string/textYES"
             android:textColor="@color/black"
-            android:backgroundTint="#FF007F"
+            android:backgroundTint="@color/pink"
+            android:layout_weight="1"
             />
         <Button
             android:id="@+id/NO"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_weight="1"
             android:layout_margin="10dp"
             android:text="@string/textNO"
             android:textColor="@color/black"
-            android:backgroundTint="#FFFF00"
+            android:backgroundTint="@color/yellow"
+            android:layout_weight="1"
+
             />
     </LinearLayout>
 
